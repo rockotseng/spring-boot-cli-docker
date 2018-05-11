@@ -1,0 +1,3 @@
+= spring-boot-cli-docker
+
+`Spring Boot CLI` installed via `SDKMAN` based on `openjdk:8-jdk-alpine`
