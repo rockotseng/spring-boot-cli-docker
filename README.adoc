@@ -1,15 +1,20 @@
 = spring-boot-cli-docker
 
+:sectnums:
+
+
 `Spring Boot CLI` installed via `SDKMAN` based on `openjdk:8-jdk-alpine`
 
 == Usage
 
-=== Pull online image
+Either `pull image from registry` or `build from Dockerfile`
+
+=== Pull image from registry
 ....
 docker run --rm rocko/spring-boot-cli-docker spring --version
 ....
 
-=== Build from source
+=== Build from Dockerfile
 ....
 docker build -t spring-boot-cli-docker .
 ....
